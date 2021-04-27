@@ -8,7 +8,7 @@ $to = "sidk12467@gmail.com";
 $subject = "Mail From Ani/Time";
 $txt ="Name = ". $fname . "\r\n  lastname = " . $lastname . "\r\n select issue =" . $issue ."\r\n subject=". $comment;
 $headers = "From: noreply@anitime.com" . "\r\n" .
-"CC: Siddhantk512@gmail.com";
+"CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
